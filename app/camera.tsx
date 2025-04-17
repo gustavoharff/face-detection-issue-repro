@@ -60,7 +60,7 @@ export default function CameraScreen() {
 
       <Camera
         photo
-        style={{ flex: 1 }}
+        style={{ width: 100, height: 100 }}
         device={device}
         faceDetectionCallback={() => { }}
         faceDetectionOptions={{
